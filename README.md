@@ -1,24 +1,22 @@
-# kulineryuk-vue
+# KulinerYuk
+KulinerYuk is a food ordering website using Vue and JSON Server
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Run the project
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Install JSON server
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm install -g json-server
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Start JSON Server
+```
+json-server --watch db.json
+```
